@@ -1,0 +1,111 @@
+.nav {
+  display: flex;
+  background: #224941;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: #fff;
+  font-size: 35px;
+}
+.logoIcons {
+  font-size: 40px;
+  color: #ece60e;
+}
+.nav .userDp {
+  height: 40px;
+}
+.nav .user {
+  display: flex;
+  align-items: center;
+}
+.nav span {
+  margin-left: 10px;
+}
+.nav .rightNav {
+  display: flex;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.nav .navLinks ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav .navLinks ul li {
+  padding: 0 4px;
+}
+.nav .navLinks ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav .navLinks ul li a:hover {
+  text-decoration: underline;
+}
+.nav .navLinks ul li:hover {
+  cursor: pointer;
+}
+.searchContainer {
+  flex-grow: 0.5;
+  /* padding: 0 20px; */
+  position: relative;
+  display: flex;
+}
+.searchContainer input {
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 31px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+.searchContainer input:focus {
+  outline: none;
+}
+.searchIcon {
+  height: 20px;
+  position: absolute;
+  top: 10px;
+  left: 7px;
+}
+.searchResults {
+  background: #fff;
+  flex-grow: 1;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  border: 1px solid #e0e0e0;
+  z-index: 100;
+  max-height: 452px;
+  overflow: scroll;
+  /* display: none; */
+}
+.searchResults ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.searchResults ul a {
+  text-decoration: none;
+  color: black;
+}
+.searchResultsRow {
+  display: flex;
+  align-items: center;
+  padding: 9px 14px;
+}
+.searchResultsRow:hover {
+  background-color: #eceffa;
+  cursor: pointer;
+}
+.searchResultsRow img {
+  height: 27px;
+}
